@@ -17,12 +17,12 @@ const App = () => {
   //console.log(apimort);
 
   return (
-    <>
+    <div className=" grid grid-cols-3 grid-rows">
      {
       apimort?.results?.map((s)=>{
         return(
-          
-            <Data 
+
+            <Data
             imagen ={s.image}
             id ={s.id}
             name ={s.name}
@@ -32,11 +32,11 @@ const App = () => {
             location ={s.location.name}
             status ={s.status}
             />
-         
+
         );
       })
      }
-    </>
+    </div>
   )
 }
 
@@ -52,6 +52,6 @@ img src={i.image} alt="" />
             <p>{i.origen.name}</p>
             <p>{i.location.name}</p>
             <p>{i.status}</p>
-        
+
             </ul>
  */
