@@ -17,7 +17,7 @@ const App = () => {
   //console.log(apimort);
 
   return (
-    <div className=" grid grid-cols-3 grid-rows">
+    <div className=" grid grid-cols-1 items-center grid-rows sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 bg-slate-500">
      {
       apimort?.results?.map((s)=>{
         return(

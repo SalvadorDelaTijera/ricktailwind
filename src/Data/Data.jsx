@@ -9,7 +9,7 @@ const Data = ({imagen, id, name, gender, specie, origen, location, status}) => {
         <h5 className=" text-white " > Id: {id}</h5>
             <h3 className=" bg-white border-double border-4 opacity-55 text-lg font-medium text-red-900 rounded-t-2xl rounded-b-2xl  h-fit mb-1" >{name}</h3>
             <p className="text-md font-thin text-black text-sm" >{gender}</p>
-            <p className="text-md font-bold text-black ">{specie}</p>
+            <p className="text-md font-bold.  text-black ">{specie}</p>
             <p className="text-md font-thin text-black ">{origen}</p>
             <p className="text-md font-thin text-black text-sm">{location}</p>
             <p className="text-md font-thin text-black  ">{status}</p>
